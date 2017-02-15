@@ -1,0 +1,22 @@
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/zucred/Specs.git'
+
+use_frameworks!
+
+pod "VMMessaging", :path => '../../VMMessaging'
+
+pod 'VMLogger'
+
+pod 'Firebase/Messaging'
+pod 'Firebase/RemoteConfig'
+
+pod 'AzureSDK-iOS'
+
+target 'VMMessagingExample' do
+
+end
+
+target 'VMMessagingTests' do
+  pod "VMMessaging", :path => '../../VMMessaging'
+
+end

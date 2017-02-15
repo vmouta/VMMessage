@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D3CE5B2C0E858009199C277 /* Pods_VMMessaging_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7DE0AFB59B97C039B093DAB /* Pods_VMMessaging_Example.framework */; };
+		703ACED02B873D4330F1E7FD /* Pods_VMMessagingExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CDE40D1824A6115E1B11EC8 /* Pods_VMMessagingExample.framework */; };
+		7BF656659D961B17E14A9C44 /* Pods_VMMessagingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DEE11EF5BC610D716DAC731 /* Pods_VMMessagingTests.framework */; };
+		BC820E4D1E41E3B200A7A03A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BC820E4C1E41E3B200A7A03A /* GoogleService-Info.plist */; };
+		BCC958711E41DAD800902EF6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC958701E41DAD800902EF6 /* AppDelegate.swift */; };
+		BCC958731E41DAD800902EF6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC958721E41DAD800902EF6 /* ViewController.swift */; };
+		BCC958761E41DAD800902EF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCC958741E41DAD800902EF6 /* Main.storyboard */; };
+		BCC958781E41DAD800902EF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCC958771E41DAD800902EF6 /* Assets.xcassets */; };
+		BCC9587B1E41DAD800902EF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCC958791E41DAD800902EF6 /* LaunchScreen.storyboard */; };
+		BCC958861E41DAD800902EF6 /* VMMessagingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC958851E41DAD800902EF6 /* VMMessagingTests.swift */; };
+		F3D3D0BA8F076F2D51F6623A /* Pods_VMMessaging_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 966405E34EC0539F22CCD61F /* Pods_VMMessaging_Tests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BCC958821E41DAD800902EF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCC958651E41DAD800902EF6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCC9586C1E41DAD800902EF6;
+			remoteInfo = VMMessaging;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06B206FDCCD31BD694593D8A /* Pods-VMMessagingExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VMMessagingExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VMMessagingExample/Pods-VMMessagingExample.debug.xcconfig"; sourceTree = "<group>"; };
+		1CDE40D1824A6115E1B11EC8 /* Pods_VMMessagingExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VMMessagingExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D0F09F790BF8274394DA2DB /* Pods-VMMessaging_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VMMessaging_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VMMessaging_Tests/Pods-VMMessaging_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		1D90E2C3995D2F3B22165FE8 /* Pods-VMMessaging_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VMMessaging_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VMMessaging_Tests/Pods-VMMessaging_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		1DEE11EF5BC610D716DAC731 /* Pods_VMMessagingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VMMessagingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AAA0EAB72EC805DB49DCFB9 /* Pods-VMMessaging_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VMMessaging_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-VMMessaging_Example/Pods-VMMessaging_Example.release.xcconfig"; sourceTree = "<group>"; };
+		841DED402E46ECCEAB659D1A /* Pods-VMMessagingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VMMessagingTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VMMessagingTests/Pods-VMMessagingTests.release.xcconfig"; sourceTree = "<group>"; };
+		966405E34EC0539F22CCD61F /* Pods_VMMessaging_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VMMessaging_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A47F838C4C1483C20BFF0082 /* Pods-VMMessagingExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VMMessagingExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-VMMessagingExample/Pods-VMMessagingExample.release.xcconfig"; sourceTree = "<group>"; };
+		B3F99E1D98DF5359F54D6F80 /* Pods-VMMessagingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VMMessagingTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VMMessagingTests/Pods-VMMessagingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BC174B1B1E48C52800832FD3 /* AzureSDK_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AzureSDK_iOS.framework; path = "../../../../Library/Developer/Xcode/DerivedData/VMMessaging-ebbuarlyntzrfmadmepmweeseiov/Build/Products/Debug-iphoneos/AzureSDK-iOS/AzureSDK_iOS.framework"; sourceTree = "<group>"; };
+		BC62AA711E5446660077FC4E /* VMMessagingExample.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = VMMessagingExample.entitlements; sourceTree = SOURCE_ROOT; };
+		BC820E4C1E41E3B200A7A03A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BCC9586D1E41DAD800902EF6 /* VMMessagingExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VMMessagingExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCC958701E41DAD800902EF6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BCC958721E41DAD800902EF6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BCC958751E41DAD800902EF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BCC958771E41DAD800902EF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BCC9587A1E41DAD800902EF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BCC9587C1E41DAD800902EF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCC958811E41DAD800902EF6 /* VMMessagingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VMMessagingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCC958851E41DAD800902EF6 /* VMMessagingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VMMessagingTests.swift; sourceTree = "<group>"; };
+		BCC958871E41DAD800902EF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBDE4AF057F2A90D7420A17A /* Pods-VMMessaging_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VMMessaging_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VMMessaging_Example/Pods-VMMessaging_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		F7DE0AFB59B97C039B093DAB /* Pods_VMMessaging_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VMMessaging_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCC9586A1E41DAD800902EF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D3CE5B2C0E858009199C277 /* Pods_VMMessaging_Example.framework in Frameworks */,
+				703ACED02B873D4330F1E7FD /* Pods_VMMessagingExample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCC9587E1E41DAD800902EF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3D3D0BA8F076F2D51F6623A /* Pods_VMMessaging_Tests.framework in Frameworks */,
+				7BF656659D961B17E14A9C44 /* Pods_VMMessagingTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		116ED8D2E6DFA0A9A7E0CEED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC174B1B1E48C52800832FD3 /* AzureSDK_iOS.framework */,
+				F7DE0AFB59B97C039B093DAB /* Pods_VMMessaging_Example.framework */,
+				966405E34EC0539F22CCD61F /* Pods_VMMessaging_Tests.framework */,
+				1CDE40D1824A6115E1B11EC8 /* Pods_VMMessagingExample.framework */,
+				1DEE11EF5BC610D716DAC731 /* Pods_VMMessagingTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		86A7281100B1497C80B07D9B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DBDE4AF057F2A90D7420A17A /* Pods-VMMessaging_Example.debug.xcconfig */,
+				5AAA0EAB72EC805DB49DCFB9 /* Pods-VMMessaging_Example.release.xcconfig */,
+				1D0F09F790BF8274394DA2DB /* Pods-VMMessaging_Tests.debug.xcconfig */,
+				1D90E2C3995D2F3B22165FE8 /* Pods-VMMessaging_Tests.release.xcconfig */,
+				06B206FDCCD31BD694593D8A /* Pods-VMMessagingExample.debug.xcconfig */,
+				A47F838C4C1483C20BFF0082 /* Pods-VMMessagingExample.release.xcconfig */,
+				B3F99E1D98DF5359F54D6F80 /* Pods-VMMessagingTests.debug.xcconfig */,
+				841DED402E46ECCEAB659D1A /* Pods-VMMessagingTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BCC958641E41DAD800902EF6 = {
+			isa = PBXGroup;
+			children = (
+				BCC9586F1E41DAD800902EF6 /* VMMessaging */,
+				BCC958841E41DAD800902EF6 /* VMMessagingTests */,
+				BCC9586E1E41DAD800902EF6 /* Products */,
+				86A7281100B1497C80B07D9B /* Pods */,
+				116ED8D2E6DFA0A9A7E0CEED /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BCC9586E1E41DAD800902EF6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCC9586D1E41DAD800902EF6 /* VMMessagingExample.app */,
+				BCC958811E41DAD800902EF6 /* VMMessagingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCC9586F1E41DAD800902EF6 /* VMMessaging */ = {
+			isa = PBXGroup;
+			children = (
+				BC62AA711E5446660077FC4E /* VMMessagingExample.entitlements */,
+				BC820E4C1E41E3B200A7A03A /* GoogleService-Info.plist */,
+				BCC958701E41DAD800902EF6 /* AppDelegate.swift */,
+				BCC958721E41DAD800902EF6 /* ViewController.swift */,
+				BCC958741E41DAD800902EF6 /* Main.storyboard */,
+				BCC958771E41DAD800902EF6 /* Assets.xcassets */,
+				BCC958791E41DAD800902EF6 /* LaunchScreen.storyboard */,
+				BCC9587C1E41DAD800902EF6 /* Info.plist */,
+			);
+			path = VMMessaging;
+			sourceTree = "<group>";
+		};
+		BCC958841E41DAD800902EF6 /* VMMessagingTests */ = {
+			isa = PBXGroup;
+			children = (
+				BCC958851E41DAD800902EF6 /* VMMessagingTests.swift */,
+				BCC958871E41DAD800902EF6 /* Info.plist */,
+			);
+			path = VMMessagingTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCC9586C1E41DAD800902EF6 /* VMMessagingExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCC9588A1E41DAD800902EF6 /* Build configuration list for PBXNativeTarget "VMMessagingExample" */;
+			buildPhases = (
+				0448D2621B475512DA999783 /* [CP] Check Pods Manifest.lock */,
+				BCC958691E41DAD800902EF6 /* Sources */,
+				BCC9586A1E41DAD800902EF6 /* Frameworks */,
+				BCC9586B1E41DAD800902EF6 /* Resources */,
+				0EE62EA3F3CAE1D49214E537 /* [CP] Embed Pods Frameworks */,
+				65BD1E232C3B1FB78CA20D75 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VMMessagingExample;
+			productName = VMMessaging;
+			productReference = BCC9586D1E41DAD800902EF6 /* VMMessagingExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BCC958801E41DAD800902EF6 /* VMMessagingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCC9588D1E41DAD800902EF6 /* Build configuration list for PBXNativeTarget "VMMessagingTests" */;
+			buildPhases = (
+				D8DB1832F88E219753A015CF /* [CP] Check Pods Manifest.lock */,
+				BCC9587D1E41DAD800902EF6 /* Sources */,
+				BCC9587E1E41DAD800902EF6 /* Frameworks */,
+				BCC9587F1E41DAD800902EF6 /* Resources */,
+				3E4FBF29C5F831670D0FBF97 /* [CP] Embed Pods Frameworks */,
+				7888359D2EB4FA5E35772A39 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCC958831E41DAD800902EF6 /* PBXTargetDependency */,
+			);
+			name = VMMessagingTests;
+			productName = VMMessagingTests;
+			productReference = BCC958811E41DAD800902EF6 /* VMMessagingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCC958651E41DAD800902EF6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "zucred AG";
+				TargetAttributes = {
+					BCC9586C1E41DAD800902EF6 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = X5YNJMAC5G;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					BCC958801E41DAD800902EF6 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = X5YNJMAC5G;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BCC9586C1E41DAD800902EF6;
+					};
+				};
+			};
+			buildConfigurationList = BCC958681E41DAD800902EF6 /* Build configuration list for PBXProject "VMMessaging" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCC958641E41DAD800902EF6;
+			productRefGroup = BCC9586E1E41DAD800902EF6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCC9586C1E41DAD800902EF6 /* VMMessagingExample */,
+				BCC958801E41DAD800902EF6 /* VMMessagingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCC9586B1E41DAD800902EF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCC9587B1E41DAD800902EF6 /* LaunchScreen.storyboard in Resources */,
+				BC820E4D1E41E3B200A7A03A /* GoogleService-Info.plist in Resources */,
+				BCC958781E41DAD800902EF6 /* Assets.xcassets in Resources */,
+				BCC958761E41DAD800902EF6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCC9587F1E41DAD800902EF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0448D2621B475512DA999783 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		0EE62EA3F3CAE1D49214E537 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VMMessagingExample/Pods-VMMessagingExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E4FBF29C5F831670D0FBF97 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VMMessagingTests/Pods-VMMessagingTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65BD1E232C3B1FB78CA20D75 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VMMessagingExample/Pods-VMMessagingExample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7888359D2EB4FA5E35772A39 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VMMessagingTests/Pods-VMMessagingTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8DB1832F88E219753A015CF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCC958691E41DAD800902EF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCC958731E41DAD800902EF6 /* ViewController.swift in Sources */,
+				BCC958711E41DAD800902EF6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCC9587D1E41DAD800902EF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCC958861E41DAD800902EF6 /* VMMessagingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BCC958831E41DAD800902EF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCC9586C1E41DAD800902EF6 /* VMMessagingExample */;
+			targetProxy = BCC958821E41DAD800902EF6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BCC958741E41DAD800902EF6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCC958751E41DAD800902EF6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BCC958791E41DAD800902EF6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCC9587A1E41DAD800902EF6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCC958881E41DAD800902EF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BCC958891E41DAD800902EF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCC9588B1E41DAD800902EF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06B206FDCCD31BD694593D8A /* Pods-VMMessagingExample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = VMMessagingExample.entitlements;
+				DEVELOPMENT_TEAM = X5YNJMAC5G;
+				INFOPLIST_FILE = VMMessaging/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vascomouta.VMMessagingExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BCC9588C1E41DAD800902EF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A47F838C4C1483C20BFF0082 /* Pods-VMMessagingExample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = VMMessagingExample.entitlements;
+				DEVELOPMENT_TEAM = X5YNJMAC5G;
+				INFOPLIST_FILE = VMMessaging/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vascomouta.VMMessagingExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		BCC9588E1E41DAD800902EF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3F99E1D98DF5359F54D6F80 /* Pods-VMMessagingTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = X5YNJMAC5G;
+				INFOPLIST_FILE = VMMessagingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vascomouta.VMMessaging-Example.VMMessagingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VMMessaging.app/VMMessaging";
+			};
+			name = Debug;
+		};
+		BCC9588F1E41DAD800902EF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 841DED402E46ECCEAB659D1A /* Pods-VMMessagingTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = X5YNJMAC5G;
+				INFOPLIST_FILE = VMMessagingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vascomouta.VMMessaging-Example.VMMessagingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VMMessaging.app/VMMessaging";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCC958681E41DAD800902EF6 /* Build configuration list for PBXProject "VMMessaging" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCC958881E41DAD800902EF6 /* Debug */,
+				BCC958891E41DAD800902EF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCC9588A1E41DAD800902EF6 /* Build configuration list for PBXNativeTarget "VMMessagingExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCC9588B1E41DAD800902EF6 /* Debug */,
+				BCC9588C1E41DAD800902EF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCC9588D1E41DAD800902EF6 /* Build configuration list for PBXNativeTarget "VMMessagingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCC9588E1E41DAD800902EF6 /* Debug */,
+				BCC9588F1E41DAD800902EF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCC958651E41DAD800902EF6 /* Project object */;
+}

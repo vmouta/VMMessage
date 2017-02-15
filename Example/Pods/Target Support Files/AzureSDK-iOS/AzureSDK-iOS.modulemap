@@ -1,0 +1,6 @@
+framework module AzureSDK_iOS {
+  umbrella header "AzureSDK-iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}
