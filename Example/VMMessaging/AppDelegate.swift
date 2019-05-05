@@ -10,8 +10,6 @@ import UIKit
 import UserNotifications
 import Firebase
 import VMLogger
-import AzureSDK_iOS
-
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {

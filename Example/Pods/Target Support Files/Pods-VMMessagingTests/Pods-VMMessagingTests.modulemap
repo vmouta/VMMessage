@@ -1,6 +1,0 @@
-framework module Pods_VMMessagingTests {
-  umbrella header "Pods-VMMessagingTests-umbrella.h"
-
-  export *
-  module * { export * }
-}

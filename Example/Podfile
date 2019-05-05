@@ -3,14 +3,16 @@ source 'https://github.com/zucred/Specs.git'
 
 use_frameworks!
 
-pod "VMMessaging", :path => '../../VMMessaging'
+#pod "VMMessaging", :path => '../../VMMessaging'
 
 pod 'VMLogger'
 
+pod 'Firebase'
+pod 'Firebase/Core'
 pod 'Firebase/Messaging'
 pod 'Firebase/RemoteConfig'
 
-pod 'AzureSDK-iOS'
+#pod 'AzureSDK-iOS'
 
 target 'VMMessagingExample' do
 

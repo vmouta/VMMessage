@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import FirebaseRemoteConfig
+import Firebase
 
 class ViewController: UIViewController {
 
